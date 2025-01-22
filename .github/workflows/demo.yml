@@ -43,5 +43,5 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: Upload build output and package.json
-          
-          
+      - name: List the content
+        run: ls
