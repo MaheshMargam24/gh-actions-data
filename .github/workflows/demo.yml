@@ -39,3 +39,9 @@ jobs:
     steps:
       - name: Deploy
         run: echo "Deploying..."
+      - name: Download the dist folder
+        uses: actions/download-artifact@v3
+        with:
+          name: Upload build output and package.json
+          
+          
