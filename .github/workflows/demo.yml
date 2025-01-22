@@ -44,4 +44,4 @@ jobs:
         with:
           name: Upload build output and package.json
       - name: List the content
-        run: ls
+        run: ls dist
